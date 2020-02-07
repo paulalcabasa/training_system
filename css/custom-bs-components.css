@@ -1,0 +1,89 @@
+
+/* NAVBAR */
+.navbar-default {
+  background-color: #ce3136;
+  border-color: #ffffff;
+  
+
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #d9534f;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+
+/*  background:url('../../../../img/background.png');*/
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #d9534f;
+   background:#000 url('../../../../img/background.png');
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #d9534f;
+ /* background-color: #000;
+*/   background:url('../../../../img/background.png');
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #d9534f;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #d9534f;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #d9534f;
+    background-color: #ffffff;
+  }
+}
+/* END OF NAVBAR */
+
+/* PANELS */
+.panel-darkRed {
+    border-color: #b81138;
+}
+.panel-darkRed > .panel-heading {
+     color: #fff;
+    background-color: #b81138;
+    border-color: #bce8f1;
+}
+.panel-darkRed > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #000;
+}
+.panel-darkRed > .panel-heading .badge {
+    color: #d9edf7;
+    background-color: #000;
+}
+.panel-darkRed > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #000;
+}
+
+/* END OF PANELS */

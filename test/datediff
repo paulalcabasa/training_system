@@ -1,0 +1,5 @@
+    var m1 = moment('4/8/2015','M/D/YYYY');
+    var m2 = moment('9/7/2015','M/D/YYYY');
+    var diff = moment.preciseDiff(m1, m2);
+    alert(diff);
+
